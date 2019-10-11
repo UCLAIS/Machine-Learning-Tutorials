@@ -94,22 +94,21 @@ Expecting Contents based on the Proposal
 
 19.	Transfer Learning (Can skip this) (TBH not an expert in TL)  
     Probably Can replace session 7 with Style-Transfer Workshop.
-
 ----------------------------------------------------------------------------------------------7
 
-20 . Natural Language Processing and RNN    
+20. Natural Language Processing and RNN    
     a.	Tokenizing  
     b.	Serial Data with RNN  
     
-21 .	Long Short Term Memory (LSTM)  
+21.	Long Short Term Memory (LSTM)  
 
-22 .	Bidirectional RNN  
+22.	Bidirectional RNN  
 ----------------------------------------------------------------------------------------------8
 
-23 .	Word Embedding  
+23.	Word Embedding  
 
-24 .	Word2Vec
+24.	Word2Vec
 
-25 .	Try Making a simple Chatbot   
+25.	Try Making a simple Chatbot   
     a.	(Actually, from one of this year’s modules my team was assigned to a project of making chatbot for a certain company so maybe at the end of the year I can do this quite well, I hope )  
 ----------------------------------------------------------------------------------------------9
