@@ -24,7 +24,7 @@ Expecting Contents based on the Proposal
     a.	Logistic Regression  
     b.	Support Vector Machine  
         i.	Linear SVM  
-        ii.	Kernel SVM
+        ii.	Kernel SVM  
     c.	Naïve Bayes  
 ----------------------------------------------------------------------------------------------2
 
