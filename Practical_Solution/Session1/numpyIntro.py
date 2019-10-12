@@ -13,20 +13,20 @@ def solution():
                   [19, 2, 3, 149, 15, 6, 172, 2, 2, 11],
                   [34, 23, 32, 24, 54, 63, 1, 5, 92, 7]])
 
-    # First column of x
+    # TODO: First column of x
     firstcol_x = x[:, 0]
 
-    # Last row of x
+    # TODO: Last row of x
     lastrow_x = x[-1, :]
 
-    # Mean of the first column
+    # TODO: Mean of the first column
     mean_firstcol = np.mean(firstcol_x)
-    # Mean of the Last row
+    # TODO: Mean of the Last row
     mean_lastrow = np.mean(lastrow_x)
 
-    # Diagonal components of x
+    # TODO: Diagonal components of x
     dia_x = np.diagonal(x)
-    # Variation of the Diagonal components of x
+    # TODO: Variation of the Diagonal components of x
     var_dia = np.var(dia_x)
 
     return firstcol_x, lastrow_x, mean_firstcol, mean_lastrow, dia_x, var_dia
