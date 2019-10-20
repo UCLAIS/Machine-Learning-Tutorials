@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="888bd2e2-7f70-4fe4-aa46-6138b4cb0203" name="Default Changelist" comment="" />
+    <list default="true" id="888bd2e2-7f70-4fe4-aa46-6138b4cb0203" name="Default Changelist" comment="delete theory">
+      <change afterPath="$PROJECT_DIR$/Practical/Session1/sklearn_Intro.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practical_Solution/Session1/sklearn_Intro.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,29 +25,31 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="ipynb" value="1" />
           <entry key="md" value="1" />
-          <entry key="py" value="20" />
+          <entry key="py" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="IPNB" value="1" />
           <entry key="Markdown" value="1" />
-          <entry key="Python" value="20" />
+          <entry key="Python" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="26" />
           <entry key="md" value="221" />
-          <entry key="py" value="3699" />
-          <entry key="txt" value="56" />
+          <entry key="py" value="4819" />
+          <entry key="txt" value="70" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="221" />
-          <entry key="PLAIN_TEXT" value="82" />
-          <entry key="Python" value="3699" />
+          <entry key="PLAIN_TEXT" value="96" />
+          <entry key="Python" value="4819" />
         </counts>
       </usages-collector>
     </session>
@@ -51,36 +57,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Practical/Session1/matplotlibAdvanced.py">
+        <entry file="file://$PROJECT_DIR$/Practical_Solution/Session1/sklearn_Intro.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="341">
+              <caret line="31" column="3" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#0#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Practical_Solution/Session1/matplotlibAdvanced.py">
+        <entry file="file://$PROJECT_DIR$/Practical/Session1/sklearn_Intro.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="720">
+              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Practical/Session1/matplotlibIntro.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="62" lean-forward="true" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#0#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,6 +85,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jupyter Notebook" />
         <option value="Python Script" />
       </list>
     </option>
@@ -121,6 +116,9 @@
         <option value="$PROJECT_DIR$/Practical_Solution/Session1/matplotlibIntro.py" />
         <option value="$PROJECT_DIR$/Practical/Session1/matplotlibIntro.py" />
         <option value="$PROJECT_DIR$/Practical/Session1/matplotlibAdvanced.py" />
+        <option value="$PROJECT_DIR$/Practical_Solution/Session1/Intro_sklearn.ipynb" />
+        <option value="$PROJECT_DIR$/Practical_Solution/Session1/sklearn_Intro.py" />
+        <option value="$PROJECT_DIR$/Practical/Session1/sklearn_Intro.py" />
       </list>
     </option>
   </component>
@@ -166,17 +164,6 @@
               <item name="UCL-AI-Society-ML-Tutorials" type="b2602c69:ProjectViewProjectNode" />
               <item name="UCL-AI-Society-ML-Tutorials" type="462c0819:PsiDirectoryNode" />
               <item name="Practical_Solution" type="462c0819:PsiDirectoryNode" />
-              <item name="Session1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UCL-AI-Society-ML-Tutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UCL-AI-Society-ML-Tutorials" type="462c0819:PsiDirectoryNode" />
-              <item name="Theory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UCL-AI-Society-ML-Tutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UCL-AI-Society-ML-Tutorials" type="462c0819:PsiDirectoryNode" />
-              <item name="Theory" type="462c0819:PsiDirectoryNode" />
               <item name="Session1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -270,7 +257,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19456366" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -286,7 +272,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.28674698" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49928468" visible="true" weight="0.30240965" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49928468" visible="true" weight="0.13253012" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -321,24 +307,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Theory/Session1/01declare_numpy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="49" lean-forward="true" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Practical/Session1/numpyIntro.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Practical_Solution/Session1/numpyIntro.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
@@ -442,12 +414,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Practical_Solution/Session1/numpyIntro.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Theory/Session1/01declare_numpy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="49" lean-forward="true" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practical_Solution/Session1/Intro_sklearn.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Practical_Solution/Session1/matplotlibAdvanced.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="570">
+          <caret line="38" column="32" lean-forward="true" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practical_Solution/Session1/sklearn_Intro.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="31" column="3" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practical/Session1/sklearn_Intro.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
