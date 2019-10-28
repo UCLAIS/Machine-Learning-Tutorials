@@ -30,7 +30,7 @@ dataframe: original dataframe
     
 @:returns -> dataframe which some rows have been removed
 """
-def remove_NaN(dataframe):
+def remove_missingData(dataframe):
     index2Remove = []
     # TODO: loop through features
     for feature in dataframe.keys():
@@ -49,6 +49,6 @@ def remove_NaN(dataframe):
 
 
 # TODO: call the function and check df
-removed_df = remove_NaN(df)
+removed_df = remove_missingData(df)
 print("\nAfter removing missing data")
 removed_df.info()
