@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="888bd2e2-7f70-4fe4-aa46-6138b4cb0203" name="Default Changelist" comment="delete theory">
-      <change afterPath="$PROJECT_DIR$/Practical/Session1/sklearn_Intro.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practical_Solution/Session1/sklearn_Intro.py" afterDir="false" />
+    <list default="true" id="888bd2e2-7f70-4fe4-aa46-6138b4cb0203" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practical/Session1/eda01_loadData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practical/Session1/eda02_missingData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practical_Solution/Session1/eda01_loadData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practical_Solution/Session1/eda02_missingData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practical_Solution/Session2/sklearn03_cross_validation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practical_Solution/Session2/sklearn04_stratified_cv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practical_Solution/Session2/sklearn05_validation_set.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/UCL-AI-Society-ML-Tutorials.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/UCL-AI-Society-ML-Tutorials.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practical/Session1/sklearn_Intro.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practical/Session2/sklearn_Intro.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practical/Session1/sklearn_train_test_split.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practical/Session2/sklearn_train_test_split.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practical_Solution/Session1/sklearn_Intro.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practical_Solution/Session2/sklearn01_Intro.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practical_Solution/Session1/sklearn_train_test_split.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practical_Solution/Session2/sklearn02_train_test_split.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,40 +27,42 @@
     <session id="2106551899">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="csv" value="1" />
           <entry key="ipynb" value="1" />
           <entry key="md" value="1" />
-          <entry key="py" value="25" />
+          <entry key="py" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CSV" value="1" />
           <entry key="IPNB" value="1" />
           <entry key="Markdown" value="1" />
-          <entry key="Python" value="25" />
+          <entry key="Python" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="26" />
+          <entry key="dummy" value="76" />
           <entry key="md" value="221" />
-          <entry key="py" value="4819" />
-          <entry key="txt" value="70" />
+          <entry key="py" value="10668" />
+          <entry key="txt" value="109" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="221" />
-          <entry key="PLAIN_TEXT" value="96" />
-          <entry key="Python" value="4819" />
+          <entry key="PLAIN_TEXT" value="185" />
+          <entry key="Python" value="10668" />
         </counts>
       </usages-collector>
     </session>
@@ -57,25 +70,61 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Practical_Solution/Session1/sklearn_Intro.py">
+        <entry file="file://$PROJECT_DIR$/Practical/Session1/numpyIntro.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="31" column="3" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+            <state relative-caret-position="105">
+              <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Practical_Solution/Session1/eda01_loadData.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-188">
+              <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
               <folding>
-                <element signature="e#0#38#0" expanded="true" />
+                <element signature="e#28#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Practical_Solution/Session1/eda02_missingData.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="29" column="4" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Practical/Session1/sklearn_Intro.py">
+        <entry file="file://$PROJECT_DIR$/Practical/Session1/eda01_loadData.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Practical/Session1/eda02_missingData.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Practical/Session1/numpyMatrix.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -113,12 +162,25 @@
         <option value="$PROJECT_DIR$/Practical_Solution/Session1/pandas_scoring.py" />
         <option value="$PROJECT_DIR$/Practical/Session1/pandasIntro.py" />
         <option value="$PROJECT_DIR$/Practical_Solution/Session1/matplotlibAdvanced.py" />
-        <option value="$PROJECT_DIR$/Practical_Solution/Session1/matplotlibIntro.py" />
         <option value="$PROJECT_DIR$/Practical/Session1/matplotlibIntro.py" />
         <option value="$PROJECT_DIR$/Practical/Session1/matplotlibAdvanced.py" />
         <option value="$PROJECT_DIR$/Practical_Solution/Session1/Intro_sklearn.ipynb" />
         <option value="$PROJECT_DIR$/Practical_Solution/Session1/sklearn_Intro.py" />
         <option value="$PROJECT_DIR$/Practical/Session1/sklearn_Intro.py" />
+        <option value="$PROJECT_DIR$/Practical_Solution/Session1/sklearn_train_test_split.py" />
+        <option value="$PROJECT_DIR$/Practical/Session1/sklearn_train_test_split.py" />
+        <option value="$PROJECT_DIR$/Practical_Solution/Session1/sklearn_stratified_cv.py" />
+        <option value="$PROJECT_DIR$/Practical_Solution/Session1/data_preparation.py" />
+        <option value="$PROJECT_DIR$/Practical_Solution/Session1/sklearn_cross_validation.py" />
+        <option value="$PROJECT_DIR$/Practical_Solution/Session1/matplotlibIntro.py" />
+        <option value="$PROJECT_DIR$/Practical_Solution/Session1/eda01.py" />
+        <option value="$PROJECT_DIR$/Practical_Solution/Session1/eda01_loadData.py" />
+        <option value="$PROJECT_DIR$/Practical_Solution/Session1/eda02_missingData.py" />
+        <option value="$PROJECT_DIR$/Practical_Solution/Session1/sklearn03_cross_validation.py" />
+        <option value="$PROJECT_DIR$/Practical_Solution/Session1/sklearn04_stratified_cv.py" />
+        <option value="$PROJECT_DIR$/Practical_Solution/Session1/sklearn05_validation_set.py" />
+        <option value="$PROJECT_DIR$/Practical/Session1/eda01_loadData.py" />
+        <option value="$PROJECT_DIR$/Practical/Session1/eda02_missingData.py" />
       </list>
     </option>
   </component>
@@ -166,6 +228,12 @@
               <item name="Practical_Solution" type="462c0819:PsiDirectoryNode" />
               <item name="Session1" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="UCL-AI-Society-ML-Tutorials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UCL-AI-Society-ML-Tutorials" type="462c0819:PsiDirectoryNode" />
+              <item name="Practical_Solution" type="462c0819:PsiDirectoryNode" />
+              <item name="Session2" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -191,6 +259,30 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="UCL-AI-Society-ML-Tutorials" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -252,17 +344,38 @@
       <option name="project" value="LOCAL" />
       <updated>1571594088339</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="sklearn">
+      <created>1571615726940</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1571615726940</updated>
+    </task>
+    <task id="LOCAL-00009" summary="sklearn train test split">
+      <created>1571683919121</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1571683919121</updated>
+    </task>
+    <task id="LOCAL-00010" summary="sklearn and eda">
+      <created>1572264955055</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1572264955055</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19456366" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19742489" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -271,9 +384,10 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.28674698" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49928468" visible="true" weight="0.13253012" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50143063" side_tool="true" visible="true" weight="0.22048193" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4985694" visible="true" weight="0.22048193" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32891566" />
+      <window_info anchor="right" x="0" y="0" width="310" height="700" id="Documentation" side_tool="true" weight="0.3297568" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -294,7 +408,10 @@
     <MESSAGE value="pandas" />
     <MESSAGE value="more pandas" />
     <MESSAGE value="matplotlib" />
-    <option name="LAST_COMMIT_MESSAGE" value="matplotlib" />
+    <MESSAGE value="sklearn" />
+    <MESSAGE value="sklearn train test split" />
+    <MESSAGE value="sklearn and eda" />
+    <option name="LAST_COMMIT_MESSAGE" value="sklearn and eda" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -304,13 +421,6 @@
             <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Practical/Session1/numpyIntro.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -335,13 +445,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Practical_Solution/Session1/pandasIntro.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Practical_Solution/Session1/pandas_scoring.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -363,13 +466,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Practical/Session1/numpyMatrix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Practical/Session1/numpyAdvanced.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -384,23 +480,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Practical_Solution/Session1/matplotlibIntro.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Practical/Session1/matplotlibIntro.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="62" lean-forward="true" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -408,60 +491,161 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Theory/Session1/01declare_numpy.py" />
+    <entry file="file://$PROJECT_DIR$/Practical_Solution/Session1/Intro_sklearn.ipynb" />
+    <entry file="file://$PROJECT_DIR$/Practical_Solution/Session1/pandasIntro.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practical/Session1/sklearn_train_test_split.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="21" lean-forward="true" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practical_Solution/Session1/matplotlibIntro.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practical_Solution/Session1/matplotlibAdvanced.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="14" column="58" lean-forward="true" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Practical_Solution/Session1/numpyIntro.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Theory/Session1/01declare_numpy.py">
+    <entry file="file://$PROJECT_DIR$/Practical/Session1/numpyMatrix.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="49" lean-forward="true" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+        <state relative-caret-position="165">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Practical_Solution/Session1/Intro_sklearn.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Practical_Solution/Session1/matplotlibAdvanced.py">
+    <entry file="file://$PROJECT_DIR$/Practical/Session1/sklearn_Intro.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="32" lean-forward="true" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+        <state relative-caret-position="495">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/taxi_train.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="30">
+          <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practical/Session1/numpyIntro.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practical_Solution/Session1/sklearn01_Intro.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practical_Solution/Session1/sklearn02_train_test_split.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="67" selection-start-line="34" selection-start-column="67" selection-end-line="34" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practical_Solution/Session1/sklearn04_stratified_cv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-379">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Practical_Solution/Session1/sklearn_Intro.py">
+    <entry file="file://$PROJECT_DIR$/Practical_Solution/Session1/sklearn05_validation_set.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="31" column="3" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+        <state relative-caret-position="375">
+          <caret line="25" column="51" lean-forward="true" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
           <folding>
-            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Practical/Session1/sklearn_Intro.py">
+    <entry file="file://$PROJECT_DIR$/Practical_Solution/Session1/sklearn03_cross_validation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="150">
+          <caret line="10" column="69" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
           <folding>
-            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practical_Solution/Session1/eda01_loadData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-188">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          <folding>
+            <element signature="e#28#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practical_Solution/Session1/eda02_missingData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="29" column="4" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practical/Session1/eda02_missingData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practical/Session1/eda01_loadData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
         </state>
       </provider>
     </entry>

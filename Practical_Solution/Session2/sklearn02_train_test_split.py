@@ -26,7 +26,7 @@ clf = DecisionTreeClassifier()
 
 # ----------- Not splitting Data ------------------------------
 
-# TODO: Train without splitting data -> do the same thing as you did in the sklearn_Intro.py
+# TODO: Train without splitting data -> do the same thing as you did in the sklearn01_Intro.py
 clf.fit(iris.data, iris.target)
 
 # TODO: predict targets based on your x datasets
@@ -44,6 +44,20 @@ print("Accuracy : {0:.2f}%".format(accuracy_score(iris.target, pred) * 100))
 
 # TODO: Split your data into X_train, X_test, Y_train and Y_test
 # TODO: What is optimal rate for the test_size?
+
+"""
+Check URL: https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html
+
+train_test_split(arrays, test_size, train_size, random_state, shuffle, stratify)
+
+arrays : x and y data
+test_size : Ratio of Test data (default = 0.25)
+train_size : Ratio of Train data (default = 1 - 0.25)
+random_state : seed value for shuffle
+shuffle : shuffle or not? (default = True)
+stratify : will discuss later on (default = None)
+"""
+
 X_train, X_test, Y_train, Y_test = train_test_split(iris.data, iris.target, test_size=0.25, random_state=0)
 
 # TODO: Train your model with your 'train data' not the whole data
