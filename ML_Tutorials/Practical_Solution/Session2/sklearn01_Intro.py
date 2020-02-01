@@ -13,7 +13,7 @@ Why do we use sklearn??
     sklearn.preprocessing : Variable functions as to data preprocessing
     sklearn.feature_selection : Help selecting primary components in datasets
     sklearn.feature_extraction : Vectorised feature extraction
-    sklearn.decomposition : Algorithms as to Dimensionality Reduction
+    sklearn.decomposition : Algorithms regarding Dimensionality Reduction
 
 3. <Data split and Parameter Tuning>
     sklearn.model_selection : 'Train Test Split' for cross validation, Parameter tuning with GridSearch
@@ -29,6 +29,11 @@ Why do we use sklearn??
     sklearn.svm : Support Vector Machine
     sklearn.tree : DecisionTreeClassifier, etc.
     sklearn.cluster : Clustering (Unsupervised Learning)
+    
+6. <Utilities>
+    sklearn.pipeline: pipeline of (feature engineering -> ML Algorithms -> Prediction)
+    
+Train data with fit() and Predict data with predict()
 """
 
 

@@ -7,12 +7,12 @@ import pandas as pd
 # TODO: Load iris dataset
 iris = load_iris()
 
-# TODO: EDA iris dataset
-print(iris.data)
-print(iris.target)
+# TODO: print each iris dataset and check info
+print("iris data: \n", iris.data)
+print("iris target: \n", iris.target)
 
-print(iris.feature_names)
-print(iris.target_names)
+print("feature names: \n", iris.feature_names)
+print("target names: \n", iris.target_names)
 
 data = pd.DataFrame(iris.data, columns=iris.feature_names)
 print(data.head(10), '\n')
@@ -21,7 +21,7 @@ print(data.info())
 
 # TODO: Homework -> Draw meaningful graphs using pandas and matplotlib
 
-# TODO: Load correct model (Should be a classifier)
+# TODO: Load classifier model
 clf = DecisionTreeClassifier()
 
 # ----------- Not splitting Data ------------------------------
@@ -33,7 +33,7 @@ clf.fit(iris.data, iris.target)
 pred = clf.predict(iris.data)
 
 # TODO: Evaluate your prediction by comparing it with label you used for training -> same as before
-# You should get accuracy above 95% or even 100%
+# You must get accuracy 100% Why?
 print("Accuracy : {0:.2f}%".format(accuracy_score(iris.target, pred) * 100))
 
 # But do you think this is a correct way to evaluate your accuracy?
@@ -58,7 +58,7 @@ shuffle : shuffle or not? (default = True)
 stratify : will discuss later on (default = None)
 """
 
-X_train, X_test, Y_train, Y_test = train_test_split(iris.data, iris.target, test_size=0.25, random_state=0)
+X_train, X_test, Y_train, Y_test = train_test_split(iris.data, iris.target, test_size=0.25, random_state=0, shuffle=True)
 
 # TODO: Train your model with your 'train data' not the whole data
 clf.fit(X_train, Y_train)

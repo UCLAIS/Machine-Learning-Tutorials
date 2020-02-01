@@ -45,6 +45,7 @@ iris = load_iris()
 # Let's check the distribution of data by making the data as DF
 iris_df = pd.DataFrame(data=iris.data, columns=iris.feature_names)
 iris_df['label'] = iris.target
+print(iris_df.iloc[[0, 10, 50, 100, 130], :])
 
 # Classification model
 dt_clf = DecisionTreeClassifier()

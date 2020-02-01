@@ -31,15 +31,15 @@ iris = load_iris()
 clf = DecisionTreeClassifier()
 
 # TODO: How many folds do you want?
-n_iter = 1      # this var is not needed. made it just to keep track of the number of iteration
+n_iter = 1      # this var is not needed. Made this just to keep track of the number of iteration
 kfold = KFold(n_splits = 5)
 cv_accuracy = []
 
 # type of idx => numpy ndarray
 for train_idx, test_idx in kfold.split(iris.data):
-    print(train_idx)
-    print(train_idx.shape)
-    print(test_idx)
+    print("train index: \n", train_idx)
+    print("train index shape: ", train_idx.shape)
+    print("test index: \n", test_idx)
     X_train, X_test = iris.data[train_idx], iris.data[test_idx]
     y_train, y_test = iris.target[train_idx], iris.target[test_idx]
 
@@ -56,6 +56,7 @@ for train_idx, test_idx in kfold.split(iris.data):
     n_iter += 1
 
     cv_accuracy.append(accuracy)
+    print("\n")
 
 print("Average accuracy : ", np.mean(cv_accuracy))
 

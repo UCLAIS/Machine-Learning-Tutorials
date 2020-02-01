@@ -8,7 +8,7 @@ Train, Validation, Test
 
 Check URL: https://towardsdatascience.com/train-validation-and-test-sets-72cb40cba9e7
 
-You split training set into train and validation
+You split training set into train and validation sets
 And check its performance with test datasets
 
 """
