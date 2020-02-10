@@ -9,9 +9,8 @@
 |      |                           |       |                               |                                 |
 |      |                           |       |                               |                                 |
 
-This repository contains every material for ML Tutorials held by UCL AI Society
 
-Planned Contents
+## Specific Contents (subject to change)
 
 1.	Numpy, Pandas, Matplotlib
 
