@@ -3,7 +3,7 @@
 ## Workshops
 | Date |          Workshop         | Slide |             Stacks            |             Remarks             |
 |:----:|:-------------------------:|:-----:|:-----------------------------:|:-------------------------------:|
-|  TBA | Exploratory Data Analysis |  link | Numpy<br>Pandas<br>Matplotlib | Download csv data <br>from here |
+|  TBA | Exploratory Data Analysis |  link | Numpy<br>Pandas<br>Matplotlib | Download csv data <br>from [here](https://www.kaggle.com/PromptCloudHQ/imdb-data) |
 |  TBA | Intro to Machine Learning |  link |          Scikit-learn         |                                 |
 |      |                           |       |                               |                                 |
 |      |                           |       |                               |                                 |
