@@ -48,10 +48,10 @@
 8.	Primary Component Analysis (PCA) and Dimensionality Reduction (Can skip this part)  
 
 9.	Unsupervised Learning: Clustering  
-    a.	Algorithms of K-Means Clustering
+    a.	K-Means Clustering
 
 10.	Perceptron  
-    a.	Single  
+    a.	SLP
     b.	MLP  
     
 11.	Tensorflow 2.0 + Keras Intro  
@@ -60,7 +60,7 @@
     c.	Keras Sequential, layers, model.compile()  
 
 12.	Intro to Artificial Neural Network  
-    a.	Hello word equivalent example – Fashion MNIST  
+    a.	Hello word equivalent example – Fashion or Digit data from MNIST   
     b.	Gradient Descent  
     c.	Back Propagation  
     
@@ -93,7 +93,7 @@
 
 17.	Batch Normalisation
 
-18.	If you’ve learned up to here you can do Style Transfer
+18.	Style Transfer  
 
 19.	Transfer Learning (Can skip this)   
 
@@ -107,6 +107,8 @@
 
 23.	Word Embedding  
 
-24.	Word2Vec
+24.	Word2Vec  
 
-25.	Try Making a simple Chatbot   
+25.	Try making a simple Chatbot   
+
+26. Reinforcement Learning  
