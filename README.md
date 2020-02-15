@@ -12,22 +12,26 @@
 
 ## Specific Contents (subject to change)
 
+### 1. Machine Learning
+#### 1) Machine Learning Basics
 1.	Numpy, Pandas, Matplotlib
 
-2.	Exploratory Data Analysis (EDA) (Can skip this)
+2.	Exploratory Data Analysis (EDA)
 
-3.	Scikit-learn  
+3.	Scikit-learning Baiscs
     a.	Train test split  
     b.	Cross validation  
     c.	K-fold cross validation  
     d.	How to prepare your data before training  
 
-4.	Regression  
-    a.	Linear Regression  
-    b.	Multivariate Regression  
-    c.	Ridge, Lasso, ElasticNet (Can skip this)  
-    d.	Boston house price prediction (Can include in RNN but can try with simple regression as well.)  
+4.	Model Evaluation
+    a.	Accuracy, precision, recall    
+    b.	ROC Curve and AUC  
+    c.	F1-Score  
 
+---
+
+#### 2) Supervised Learning
 5.	Classification  
     a.	Logistic Regression  
     b.	Support Vector Machine  
@@ -35,21 +39,28 @@
         ii.	Kernel SVM  
     c.	Naïve Bayes  
 
-6.	Decision Trees and Ensemble  
+6.	Regression  
+    a.	Linear Regression  
+    b.	Multivariate Regression  
+    c.	Ridge, Lasso, ElasticNet (Can skip this)  
+    d.	Boston house price prediction (Can include in RNN but can try with simple regression as well.)  
+
+7.	Decision Trees and Ensemble  
     a.	Binary Tree Decision Tree  
     b.	Hyper-parameter Tuning with GridSearchCV()  
     c.	Ensemble  
     
-7.	Model Evaluation (Can skip this part)  
-    a.	Accuracy, precision, recall    
-    b.	ROC Curve and AUC  
-    c.	F1-Score  
-    
-8.	Primary Component Analysis (PCA) and Dimensionality Reduction (Can skip this part)  
+8.	Primary Component Analysis (PCA) and Dimensionality Reduction
 
+---
+
+#### 3) Unsupervised Learning
 9.	Unsupervised Learning: Clustering  
     a.	K-Means Clustering
 
+---
+
+#### 4) Artifical Neural Networks
 10.	Perceptron  
     a.	SLP
     b.	MLP  
@@ -59,56 +70,58 @@
     b.	Tensor Constant, Data type, LR with Tensorflow  
     c.	Keras Sequential, layers, model.compile()  
 
-12.	Intro to Artificial Neural Network  
-    a.	Hello word equivalent example – Fashion or Digit data from MNIST   
-    b.	Gradient Descent  
-    c.	Back Propagation  
-    
-13.	Optimization  
-    a.	Gradient Vanishing  
+12.	Optimization  
+    a.  Back Propagation
+    a.	Gradient Descent  
     b.	Stochastic Gradient Descent  
     c.	Adagrad  
     d.	Adadelta  
     e.	RMSprop  
     f.	Adam  
-    g.	RAdam (New thing)  
+    g.	RAdam (State of the Art)  
     
-14.	Overfitting Prevention    
-    a.	Data Augmentation  
-    b.	Drop out  
-    c.	Regularization  
-
-15.	CNN  
+13.	Regularization Techniques
+    a.  Overfitting
+    b.	Data Augmentation  
+    c.	Drop out
+    d. 	Batch Normalisation
+    
+14.	CNN  
     a.	Data Augmentation for Computer Vision  
     b.	Convolution Layer  
     c.	Pooling  
     d.	Feature Map  
     
-16.	Famous CNN Examples  
-    a.	VGG 16 and 19  
-    b.	GoogleNet  
-    c.	ResNet  
-    d.	Inception  
-    e.	AlexNet  
+15.	Popular CNN Architecture
+    a.  AlexNet
+    b.	VGGNet  
+    c.	GoogleNet  
+    d.	ResNet  
+    e.	Inception
 
-17.	Batch Normalisation
+16.	Application of CNN - Style Transfer     
 
-18.	Style Transfer  
+17. Vanilla RNN
 
-19.	Transfer Learning (Can skip this)   
+18.	Long Short Term Memory (LSTM)  
 
-20. Natural Language Processing and RNN    
-    a.	Tokenizing  
-    b.	Serial Data with RNN  
-    
-21.	Long Short Term Memory (LSTM)  
+19.	Bidirectional RNN
 
-22.	Bidirectional RNN  
+20. Tokenizing
 
-23.	Word Embedding  
+21. Stopwords
 
-24.	Word2Vec  
+22. Stemming
 
-25.	Try making a simple Chatbot   
+23. TF-IDF
 
-26. Reinforcement Learning  
+24.	Word Embedding  
+
+25.	Word2Vec  
+
+26.	A simple Chatbot   
+
+---
+
+#### 8) Reinforcement Learning
+27. Reinforcement Learning  
