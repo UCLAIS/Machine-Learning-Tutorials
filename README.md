@@ -49,14 +49,14 @@
     a.	Binary Tree Decision Tree  
     b.	Hyper-parameter Tuning with GridSearchCV()  
     c.	Ensemble  
-    
-8.	Primary Component Analysis (PCA) and Dimensionality Reduction
 
 ---
 
 #### 3) Unsupervised Learning
-9.	Unsupervised Learning: Clustering  
+8.	Unsupervised Learning: Clustering  
     a.	K-Means Clustering
+    
+9. Primary Component Analysis (PCA) and Dimensionality Reduction
 
 ---
 
