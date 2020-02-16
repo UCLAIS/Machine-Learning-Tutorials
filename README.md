@@ -123,5 +123,5 @@
 
 ---
 
-#### 8) Reinforcement Learning
+#### 5) Reinforcement Learning
 27. Reinforcement Learning  
