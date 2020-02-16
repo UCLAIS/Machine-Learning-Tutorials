@@ -14,17 +14,17 @@
 
 ### 1. Machine Learning
 #### 1) Machine Learning Basics
-1.	Numpy, Pandas, Matplotlib
+1.	Numpy, Pandas, Matplotlib  
 
-2.	Exploratory Data Analysis (EDA)
+2.	Exploratory Data Analysis (EDA)  
 
-3.	Scikit-learning Baiscs
+3.	Scikit-learn Basics  
     a.	Train test split  
     b.	Cross validation  
     c.	K-fold cross validation  
     d.	How to prepare your data before training  
 
-4.	Model Evaluation
+4.	Model Evaluation (Can skip this)  
     a.	Accuracy, precision, recall    
     b.	ROC Curve and AUC  
     c.	F1-Score  
@@ -32,18 +32,18 @@
 ---
 
 #### 2) Supervised Learning
-5.	Classification  
+5.	Regression  
+    a.	Linear Regression  
+    b.	Multivariate Regression  
+    c.	Ridge, Lasso, ElasticNet (Can skip this)  
+    d.	Boston house price prediction (Can include in RNN but can try with simple regression as well.)  
+
+6.	Classification  
     a.	Logistic Regression  
     b.	Support Vector Machine  
         i.	Linear SVM  
         ii.	Kernel SVM  
     c.	Naïve Bayes  
-
-6.	Regression  
-    a.	Linear Regression  
-    b.	Multivariate Regression  
-    c.	Ridge, Lasso, ElasticNet (Can skip this)  
-    d.	Boston house price prediction (Can include in RNN but can try with simple regression as well.)  
 
 7.	Decision Trees and Ensemble  
     a.	Binary Tree Decision Tree  
@@ -72,7 +72,7 @@
     c.	Keras Sequential, layers, model.compile()  
 
 12.	Optimization  
-    a.  Back Propagation
+    a.  Back Propagation  
     a.	Gradient Descent  
     b.	Stochastic Gradient Descent  
     c.	Adagrad  
@@ -81,11 +81,11 @@
     f.	Adam  
     g.	RAdam (State of the Art)  
     
-13.	Regularization Techniques
-    a.  Overfitting
+13.	Regularization Techniques  
+    a.  Overfitting  
     b.	Data Augmentation  
-    c.	Drop out
-    d. 	Batch Normalisation
+    c.	Drop out  
+    d. 	Batch Normalisation  
     
 14.	CNN  
     a.	Data Augmentation for Computer Vision  
@@ -93,28 +93,28 @@
     c.	Pooling  
     d.	Feature Map  
     
-15.	Popular CNN Architecture
-    a.  AlexNet
+15.	Popular CNN Architectures  
+    a.  AlexNet  
     b.	VGGNet  
     c.	GoogleNet  
     d.	ResNet  
     e.	Inception
 
-16.	Application of CNN - Style Transfer     
+16.	Application of CNN - Style Transfer 
 
-17. Vanilla RNN
+17. Vanilla RNN  
 
 18.	Long Short Term Memory (LSTM)  
 
-19.	Bidirectional RNN
+19.	Bidirectional RNN  
 
-20. Tokenizing
+20. Tokenizing  
 
-21. Stopwords
+21. Stopwords  
 
-22. Stemming
+22. Stemming  
 
-23. TF-IDF
+23. TF-IDF  
 
 24.	Word Embedding  
 
