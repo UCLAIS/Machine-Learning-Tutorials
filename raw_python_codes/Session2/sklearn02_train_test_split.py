@@ -53,12 +53,12 @@ train_test_split(arrays, test_size, train_size, random_state, shuffle, stratify)
 arrays : x and y data
 test_size : Ratio of Test data (default = 0.25)
 train_size : Ratio of Train data (default = 1 - 0.25)
-random_state : seed value for shuffle
+random_state : seed value for shuffle. It is used to seed a new RandomState object. This is to check and validate the data when running the code multiple times.
 shuffle : shuffle or not? (default = True)
 stratify : will discuss later on (default = None)
 """
 
-X_train, X_test, Y_train, Y_test = train_test_split(iris.data, iris.target, test_size=0.25, random_state=0, shuffle=True)
+X_train, X_test, Y_train, Y_test = train_test_split(iris.data, iris.target, test_size=0.25, random_state=42, shuffle=True)
 
 # TODO: Train your model with your 'train data' not the whole data
 clf.fit(X_train, Y_train)
