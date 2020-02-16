@@ -127,13 +127,15 @@
 #### 5) Reinforcement Learning
 *Tutorial materials to be added soon*
 #### 6) Reinforcement Learning Basics
+
 27. Elements of a RL problem and mathematical definitions
 28. Morkov Decision Processes Formalism
-29. Policy gradient algorithms
-    a. REINFORCE
-    b. Advantage Actor Critic (A2C)
-    c. Asynchronous Advantage Actor Critic (A3C)
-30. Q-learning
-    a. SARSA
-    b. DQN
-    c. DQN Extensions
+29.	Policy gradient algorithms  
+    a.	REINFORCE  
+    b.	Advantage Actor Critic (A2C)  
+    c.	Asynchronous Advantage Actor Critic (A3C)  
+    
+30. Q-learning  
+    a.	SARSA  
+    b.	DQN  
+    c.	DQN Extensions  
