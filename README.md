@@ -60,6 +60,7 @@
 
 ---
 
+### 2. Deep Learning
 #### 4) Artifical Neural Networks
 10.	Perceptron  
     a.	SLP
