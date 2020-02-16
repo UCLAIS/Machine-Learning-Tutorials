@@ -3,7 +3,7 @@ from sklearn.linear_model import LinearRegression
 import csv
 import matplotlib.pyplot as plt
 
-csvReader = csv.reader(open("Advertisement.csv"))
+csvReader = csv.reader(open("../../notebooks/data/Advertisement.csv"))
 # skip the header
 next(csvReader)
 
