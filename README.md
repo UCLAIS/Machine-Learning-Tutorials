@@ -63,7 +63,7 @@
 ### 2. Deep Learning
 #### 4) Artifical Neural Networks
 10.	Perceptron  
-    a.	SLP
+    a.	SLP  
     b.	MLP  
     
 11.	Tensorflow 2.0 + Keras Intro  
