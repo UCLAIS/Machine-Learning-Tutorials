@@ -20,7 +20,7 @@ from sklearn.metrics import mean_squared_error
 
 
 BOSTON_DATA = datasets.load_boston()
-# print("raw data: ", boston_data)
+# print("raw data: ", BOSTON_DATA)
 
 
 def load_data_target(dataset):
