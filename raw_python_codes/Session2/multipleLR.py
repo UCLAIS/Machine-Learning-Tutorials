@@ -1,7 +1,6 @@
 import numpy as np
 from sklearn.linear_model import LinearRegression
 import csv
-import matplotlib.pyplot as plt
 
 csvReader = csv.reader(open("../../notebooks/data/Advertisement.csv"))
 # skip the header
@@ -19,6 +18,9 @@ for row in csvReader:
 
 X = np.array(x)
 Y = np.array(y)
+print(X.shape)
+print(Y.shape)
+assert len(X) == len(Y)
 
 ########################
 # Train the model here #
@@ -32,11 +34,10 @@ Y_pred = lrmodel.predict(X)
 print("X size: ", X.size)
 print("Y_pred size: ", Y_pred.size)
 
-# TODO: Think. Can you draw a graph using plt.plot(X, Y_pred)?
-
-beta_0 = lrmodel.coef_[0]
-beta_1 = lrmodel.coef_[1]
-beta_2 = lrmodel.coef_[2]
+print(lrmodel.coef_)
+beta_0 = lrmodel.coef_[0]   # Facebook
+beta_1 = lrmodel.coef_[1]   # Instagram
+beta_2 = lrmodel.coef_[2]   # Twitter
 beta_3 = lrmodel.intercept_
 
 print("beta_0: %f" % beta_0)
@@ -45,6 +46,7 @@ print("beta_2: %f" % beta_2)
 print("beta_3: %f" % beta_3)
 
 
+# Inference
 # infer an expected sales based on given values
 def expected_sales(fb, insta, twitter, beta_0, beta_1, beta_2, beta_3):
     # Multiple Linear Regression Model

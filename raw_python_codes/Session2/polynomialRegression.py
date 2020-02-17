@@ -34,7 +34,8 @@ poly_feat = PolynomialFeatures(degree=2)
 # TODO: transform your data (eg: x=[x1, x2] --> poly_x=[1, x1, x2, x1^2, x1x2, x2^2])
 poly_x = poly_feat.fit_transform(x)
 print(poly_x[0])
-# TODO: Load a model. Which model should you load?
+
+# TODO: Load a model. Which model should you load? Correct!! Since we've already transformed the
 linear_model = LinearRegression()
 
 # TODO: fit your model

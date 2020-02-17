@@ -17,7 +17,10 @@
 [Model].fit(x, y)
 [Model].predict(x)
 
-reference: https://scikit-learn.org/stable/modules/classes.html#module-sklearn.linear_model
+reference:
+https://scikit-learn.org/stable/modules/linear_model.html#ridge-regression-and-classification
+https://scikit-learn.org/stable/modules/linear_model.html#lasso
+https://scikit-learn.org/stable/modules/linear_model.html#elastic-net
 """
 from sklearn.linear_model import Ridge
 from sklearn.linear_model import Lasso

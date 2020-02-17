@@ -12,7 +12,7 @@ import matplotlib as mpl
 mpl.use("Agg")
 
 learning_rate = 1e-4
-iteration = [10, 20, 100, 1000, 10000]
+iterations = [10, 20, 100, 1000, 10000]
 
 # x = np.array(
 #     [[8.70153760], [3.90825773], [1.89362433], [3.28730045], [7.39333004], [2.98984649], [2.25757240], [9.84450732],
@@ -22,6 +22,11 @@ iteration = [10, 20, 100, 1000, 10000]
 #      [6.29097441], [5.19692852]])
 x = 5 * np.random.rand(100, 1)
 y = 3 * x + 5 * np.random.rand(100, 1)
+
+# plt.scatter(x, y, alpha=1, s=20)
+# plt.xlabel("X")
+# plt.ylabel("Y")
+
 
 # outputs predicted equation
 def prediction(a, b, x):
@@ -46,12 +51,12 @@ def caculate_error(a, b, x, y):
 
 
 # calculate error for given number of times, and update a and b
-def gradient_descent(x, y, iter):
+def gradient_descent(x, y, iteration):
     # initial a and b set to a=0 and b=0
     a = np.zeros((1, 1))
     b = np.zeros((1, 1))
 
-    for i in range(iter):
+    for i in range(iteration):
         print("a: ", a)
         print("b: ", b)
         # TODO: get error
@@ -69,8 +74,8 @@ def gradient_descent(x, y, iter):
 def main():
     fig, ax = plt.subplots(1, 5, figsize=(17, 5))
 
-    for index, iter in enumerate(iteration):
-        final_a, final_b = gradient_descent(x, y, iter=iter)
+    for index, iteration in enumerate(iterations):
+        final_a, final_b = gradient_descent(x, y, iteration=iteration)
         print("final a:", final_a, "final b:", final_b)
 
         # Visualise 5 iteration graphs
@@ -81,6 +86,7 @@ def main():
         ax[index].set_ylabel('Y')
 
     fig.savefig("./Image_Output/LR_fromScratch.png")
+    # plt.show()
 
 
 main()
