@@ -3,6 +3,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 import pandas as pd
+import numpy as np
 
 # TODO: Load iris dataset
 iris = load_iris()
@@ -22,15 +23,15 @@ print(data.info())
 # TODO: Homework -> Draw meaningful graphs using pandas and matplotlib
 
 # TODO: Load classifier model
-clf = DecisionTreeClassifier()
+model = DecisionTreeClassifier()
 
 # ----------- Not splitting Data ------------------------------
 
 # TODO: Train without splitting data -> do the same thing as you did in the sklearn01_Intro.py
-clf.fit(iris.data, iris.target)
+model.fit(iris.data, iris.target)
 
 # TODO: predict targets based on your x datasets
-pred = clf.predict(iris.data)
+pred = model.predict(iris.data)
 
 # TODO: Evaluate your prediction by comparing it with label you used for training -> same as before
 # You must get accuracy 100% Why?
@@ -58,13 +59,13 @@ shuffle : shuffle or not? (default = True)
 stratify : will discuss later on (default = None)
 """
 
-X_train, X_test, Y_train, Y_test = train_test_split(iris.data, iris.target, test_size=0.25, random_state=42, shuffle=True)
+X_train, X_test, Y_train, Y_test = train_test_split(iris.data, iris.target, test_size=0.25, random_state=np.random, shuffle=True)
 
 # TODO: Train your model with your 'train data' not the whole data
-clf.fit(X_train, Y_train)
+model.fit(X_train, Y_train)
 
 # TODO: Predict targets with your 'test data' not the whole target data
-pred = clf.predict(X_test)
+pred = model.predict(X_test)
 
 # TODO: Evaluate your prediction. Which data should you compare your predicted data with?
 print("Accuracy : {0:.2f}%".format(accuracy_score(Y_test, pred) * 100))

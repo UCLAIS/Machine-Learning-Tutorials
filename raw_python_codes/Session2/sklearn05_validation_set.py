@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
-from sklearn.datasets import load_digits
-from sklearn.model_selection import KFold, train_test_split
+from sklearn.datasets import load_digits, load_iris
+from sklearn.model_selection import KFold, train_test_split, StratifiedKFold
 
 """
 Train, Validation, Test
@@ -13,17 +13,17 @@ And check its performance with test datasets
 
 """
 
-# load mnist digit data
-digits = load_digits()
+iris = load_iris()
 
 
 # TODO: train_test_split(), choose good test_size
-X_train, X_test, y_train, y_test = train_test_split(digits.data, digits.target, test_size=0.3)
+X_train, X_test, y_train, y_test = train_test_split(iris.data, iris.target, test_size=0.3)
 
 # TODO: declare kfold
-kfold = KFold(n_splits=3)
+# kfold = KFold(n_splits=3)
+STK = StratifiedKFold(n_splits=3)
 
 # TODO: Split X_train into train and validation set
-for train_idx, vali_idx in kfold.split(X_train):
-    X_fold_train, X_fold_vali = digits.data[train_idx], digits.data[vali_idx]
-    y_fold_train, y_fold_vali = digits.target[train_idx], digits.target[vali_idx]
+for train_idx, vali_idx in STK.split(X_train, y_train):
+    X_train, X_vali = iris.data[train_idx], iris.data[vali_idx]
+    y_train, y_vali = iris.target[train_idx], iris.target[vali_idx]
