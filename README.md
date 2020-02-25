@@ -125,7 +125,16 @@
 ---
 
 #### 5) Reinforcement Learning
-*Tutorial materials to be added soon*
+ * Tutorial 1  
+    [Notes](https://colab.research.google.com/drive/1ggwbW__i3ZLDKfmoqYQpjtM955FSJZ9C)   
+    [Beginner solutions](https://colab.research.google.com/drive/1zSuitT_KMcMlwRhwd54q4IgG01suSn6f)  
+    [Advanced solutions]()
+    
+ * Tutorial 2  
+    [Notes]()   
+    [Beginner solutions]()  
+    [Advanced solutions]()  
+    
 #### 6) Reinforcement Learning Basics
 
 27. Elements of a RL problem and mathematical definitions
