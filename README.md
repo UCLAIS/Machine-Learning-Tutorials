@@ -3,7 +3,7 @@
 ## Workshops
 | Date |          Workshop         | Slide |             Stacks            |             Remarks             |
 |:----:|:-------------------------:|:-----:|:-----------------------------:|:-------------------------------:|
-|  TBA | Exploratory Data Analysis |  link | Numpy<br>Pandas<br>Matplotlib | [movie data](https://www.kaggle.com/PromptCloudHQ/imdb-data)<br> [taxi data](https://www.kaggle.com/c/nyc-taxi-trip-duration/data) |
+|  20th OCT 2020 | Exploratory Data Analysis |  link | Numpy<br>Pandas<br>Matplotlib | [movie data](https://www.kaggle.com/PromptCloudHQ/imdb-data)<br> [taxi data](https://www.kaggle.com/c/nyc-taxi-trip-duration/data) |
 |  TBA | Intro to Machine Learning |  link |          Scikit-learn         |                                 |
 |      |                           |       |                               |                                 |
 |      |                           |       |                               |                                 |
