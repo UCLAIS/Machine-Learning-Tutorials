@@ -1,16 +1,18 @@
 # UCL-AI-Society-ML-Tutorials
 
-### This repository will be used only for releasing course materials to students. Actual working repositorywith all contributors marked is currently made private.  
+### This repository will be used only for releasing course materials to students. Actual working repository with all contributors marked is currently made private.  
 
 ### Contributors
-- [Danny Toeun Kim](https://github.com/kimdanny)
+- [Danny Toeun Kim](https://github.com/kimdanny) (Maintainer since 19/20)
 - [Jianqiao Mao](https://github.com/JianqiaoMao)
 - [Kamen Brestnichki](https://github.com/KamenB)
+- [Heejoon Koo](https://github.com/hee9joon) (19/20. Numpy/Pandas/Matplotlib)
+- [Maria Kapros](https://github.com/karyam) (19/20. RL)
 
 ## Workshops
 | Date |          Workshop         | Slide |             Stacks            |             Remarks             |
 |:----:|:-------------------------:|:-----:|:-----------------------------:|:-------------------------------:|
-|  20th OCT 2020 | Exploratory Data Analysis |  link | Numpy<br>Pandas<br>Matplotlib | [movie data](https://www.kaggle.com/PromptCloudHQ/imdb-data)<br> [taxi data](https://www.kaggle.com/c/nyc-taxi-trip-duration/data) |
+|  22th OCT 2020 | Numerical Computation and Visualisation |  link | Numpy<br>Pandas<br>Matplotlib | [movie data](https://www.kaggle.com/PromptCloudHQ/imdb-data)<br> [taxi data](https://www.kaggle.com/c/nyc-taxi-trip-duration/data) |
 |  TBA | Intro to Machine Learning |  link |          Scikit-learn         |                                 |
 |      |                           |       |                               |                                 |
 |      |                           |       |                               |                                 |
