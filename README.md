@@ -1,5 +1,12 @@
 # UCL-AI-Society-ML-Tutorials
 
+### This repository will be used only for releasing course materials to students. Actual working repositorywith all contributors marked is currently made private.  
+
+### Contributors
+- [Danny Toeun Kim](https://github.com/kimdanny)
+- [Jianqiao Mao](https://github.com/JianqiaoMao)
+- [Kamen Brestnichki](https://github.com/KamenB)
+
 ## Workshops
 | Date |          Workshop         | Slide |             Stacks            |             Remarks             |
 |:----:|:-------------------------:|:-----:|:-----------------------------:|:-------------------------------:|
