@@ -13,7 +13,7 @@
 | Date |          Workshop         | Slide |             Stacks            |             Remarks             |
 |:----:|:-------------------------:|:-----:|:-----------------------------:|:-------------------------------:|
 |  22th OCT 2020 | Numerical Computation and Visualisation |  link | Numpy<br>Pandas<br>Matplotlib | [movie data](https://www.kaggle.com/PromptCloudHQ/imdb-data)<br> [taxi data](https://www.kaggle.com/c/nyc-taxi-trip-duration/data) |
-|  TBA | Intro to Machine Learning |  link |          Scikit-learn         |                                 |
+|  5th NOV 2020 | Intro to Machine Learning |  link |          Scikit-learn         |                                 |
 |      |                           |       |                               |                                 |
 |      |                           |       |                               |                                 |
 |      |                           |       |                               |                                 |
