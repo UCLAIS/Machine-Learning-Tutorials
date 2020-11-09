@@ -6,20 +6,92 @@
 - [Danny Toeun Kim](https://github.com/kimdanny) (Maintainer since 19/20)
 - [Jianqiao Mao](https://github.com/JianqiaoMao)
 - [Kamen Brestnichki](https://github.com/KamenB)
-- [Heejoon Koo](https://github.com/hee9joon) (19/20. Numpy/Pandas/Matplotlib)
-- [Maria Kapros](https://github.com/karyam) (19/20. RL)
+- [Heejoon Koo](https://github.com/hee9joon) (19/20)
+- [Maria Kapros](https://github.com/karyam) (19/20)
 
-## Workshops
-| Date |          Workshop         | Slide |             Stacks            |             Remarks             |
-|:----:|:-------------------------:|:-----:|:-----------------------------:|:-------------------------------:|
-|  22th OCT 2020 | Numerical Computation and Visualisation |  link | Numpy<br>Pandas<br>Matplotlib | [movie data](https://www.kaggle.com/PromptCloudHQ/imdb-data)<br> [taxi data](https://www.kaggle.com/c/nyc-taxi-trip-duration/data) |
-|  5th NOV 2020 | Intro to Machine Learning |  link |          Scikit-learn         |                                 |
-|      |                           |       |                               |                                 |
-|      |                           |       |                               |                                 |
-|      |                           |       |                               |                                 |
+### Media
+On our YouTube channel, you can watch our lectures and recordings of solution walk-through.    
+**YouTube channel**: [UCL Artificial Intelligence Society](https://www.youtube.com/channel/UC-5Whp878nPjOqKaL0tsDoA)  
+
+On our Discord channel, you can ask any questions you may have on our notebooks.  
+**Discord channel invite link**: [UCL AI soc Discord](https://discord.gg/Hh9EVw2RGP)
+
+Check our Facebook events for the zoom link of the live session - [AISoc.ucl](https://www.facebook.com/AISoc.ucl)
+
+## Tutorial notebooks
+<table>
+  <tr>
+    <th>Release Date</th>
+    <th>Title</th>
+    <th>Solution video</th>
+    <th>Contents</th>
+    <th>Remarks</th>  
+  </tr>
+  
+  <tr>
+    <td>22th Oct 2020</td>
+    <td>Numerical Computation and Visualisation</td>
+    <td> <a href="https://example.com">Notebook 1 solution</a> </td>
+    <td>Numpy, Pandas and Matplotlib</td>
+    <td> 
+        <a href="https://www.kaggle.com/PromptCloudHQ/imdb-data">movie data</a> <br>
+        <a href="https://www.kaggle.com/c/nyc-taxi-trip-duration/data">NYC taxi data</a> 
+    </td>
+  </tr>
+  
+  <tr>
+    <td>5th Nov 2020</td>
+    <td>Supervised Learning</td>
+    <td> TBA </td>
+    <td>Regressions, Classification and Cross Validations </td>
+    <td> 
+        N.A. 
+    </td>
+  </tr>
+  
+  <tr>
+    <td>19th Nov 2020</td>
+    <td>More on supervised learning and intro to Unsupervised learning</td>
+    <td> TBA </td>
+    <td> SVM, Clustering and PCA </td>
+    <td> 
+        TBA
+    </td>
+  </tr>
+    
+</table>
 
 
-## Specific Contents (subject to change)
+## Lectures
+
+<table>
+  <tr>
+    <th>Release Date</th>
+    <th>Title</th>
+    <th>Lecture video</th>
+    <th>Contents</th>
+    <th>Slides</th>  
+  </tr>
+  
+  <tr>
+    <td>5th Nov 2020</td>
+    <td>Introduction to Machine Learning</td>
+    <td> <a href="https://youtu.be/xgSX0kFxUzo"> Lecture 01 </a> </td>
+    <td> Introduction, <br> Data preprocessing, <br> Mathematical Fundamentals, <br> Linear Regression </td>
+    <td> <a href="https://github.com/UCLAIS/Machine-Learning-Tutorials/blob/master/lecture_slides/01 Intro to ML.pdf"> Slide 01 </a> </td>
+  </tr>
+  
+  <tr>
+    <td>19th Nov 2020</td>
+    <td> TBA </td>
+    <td> TBA </td>
+    <td> TBA </td>
+    <td> </td>
+  </tr>
+    
+</table>
+
+## Plan for Specific Contents (subject to change)
 
 ### 1. Machine Learning
 #### 1) Machine Learning Basics
