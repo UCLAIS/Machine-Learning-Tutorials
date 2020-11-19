@@ -83,10 +83,10 @@ Check our Facebook events for the zoom link of the live session - [AISoc.ucl](ht
   
   <tr>
     <td>19th Nov 2020</td>
-    <td> TBA </td>
-    <td> TBA </td>
-    <td> TBA </td>
-    <td> </td>
+    <td> Building Blocks of ML </td>
+    <td> <a href="https://www.youtube.com/watch?v=7jX3TAL16og"> Lecture 02 </a> </td>
+    <td> Optimization, <br> Linear algebra, <br> Kernel Tricks </td>
+    <td> <a href="https://github.com/UCLAIS/Machine-Learning-Tutorials/blob/master/lecture_slides/02 Building Blocks of ML.pdf"> Slide 02 </a> </td>
   </tr>
     
 </table>
