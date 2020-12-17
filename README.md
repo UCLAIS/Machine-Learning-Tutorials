@@ -31,7 +31,7 @@ Check our Facebook events for the zoom link of the live session - [AISoc.ucl](ht
   <tr>
     <td>22th Oct 2020</td>
     <td>Numerical Computation and Visualisation</td>
-    <td> <a href="https://example.com">Notebook 1 solution</a> </td>
+    <td> <a href="https://www.youtube.com/watch?v=Cj8rcFWsqg8">Notebook 1 solution</a> </td>
     <td>Numpy, Pandas and Matplotlib</td>
     <td> 
         <a href="https://www.kaggle.com/PromptCloudHQ/imdb-data">movie data</a> <br>
@@ -42,7 +42,7 @@ Check our Facebook events for the zoom link of the live session - [AISoc.ucl](ht
   <tr>
     <td>5th Nov 2020</td>
     <td>Supervised Learning</td>
-    <td> TBA </td>
+    <td> <a href="https://www.youtube.com/watch?v=TPp6HDnYUfg">Notebook 2 solution</a> </td>
     <td>Regressions, Classification and Cross Validations </td>
     <td> 
         N.A. 
@@ -51,11 +51,21 @@ Check our Facebook events for the zoom link of the live session - [AISoc.ucl](ht
   
   <tr>
     <td>19th Nov 2020</td>
-    <td>More on supervised learning and intro to Unsupervised learning</td>
-    <td> TBA </td>
-    <td> SVM, Clustering and PCA </td>
+    <td>More on supervised learning and Intro to Unsupervised learning</td>
+    <td> <a href="https://www.youtube.com/watch?v=P1p3qJS_mHw">Notebook 3 solution</a> </td>
+    <td> SVM, PCA, K-Means </td>
     <td> 
-        TBA
+        N.A.
+    </td>
+  </tr>
+  
+  <tr>
+    <td>3rd Dec 2020</td>
+    <td>Intro to Deep Learning</td>
+    <td> <a href="https://www.youtube.com/watch?v=6jgCuI143T0">Notebook 4 solution</a> </td>
+    <td> Perceptrons, Tensorflow, Keras and Pytorch </td>
+    <td> 
+        <a href="https://www.kaggle.com/c/digit-recognizer/data">MNIST Digits from Kaggle</a> 
     </td>
   </tr>
     
@@ -87,6 +97,14 @@ Check our Facebook events for the zoom link of the live session - [AISoc.ucl](ht
     <td> <a href="https://www.youtube.com/watch?v=7jX3TAL16og"> Lecture 02 </a> </td>
     <td> Optimization, <br> Linear algebra, <br> Kernel Tricks </td>
     <td> <a href="https://github.com/UCLAIS/Machine-Learning-Tutorials/blob/master/lecture_slides/02 Building Blocks of ML.pdf"> Slide 02 </a> </td>
+  </tr>
+  
+  <tr>
+    <td>3rd Dec 2020</td>
+    <td> Supervised Learning (Advanced) </td>
+    <td> <a href="https://www.youtube.com/watch?v=Bi5fH_Vq_Uw"> Lecture 03 </a> </td>
+    <td> KNN, <br> SVM, <br> Random Forest </td>
+    <td> <a href="example.com"> Slide 03 </a> </td>
   </tr>
     
 </table>
