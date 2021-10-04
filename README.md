@@ -1,4 +1,5 @@
 # UCL-AI-Society-ML-Tutorials
+## Season 1 (2020/2021)
 
 ### Contributors
 - [Danny Toeun Kim](https://github.com/kimdanny) (Maintainer since 19/20)
