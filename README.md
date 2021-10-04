@@ -108,7 +108,7 @@ Check our Facebook events for the zoom link of the live session - [AISoc.ucl](ht
     
 </table>
 
-## Plan for Specific Contents (subject to change)
+## Specific Contents
 
 ### 1. Machine Learning
 #### 1) Machine Learning Basics
@@ -133,8 +133,8 @@ Check our Facebook events for the zoom link of the live session - [AISoc.ucl](ht
 5.	Regression  
     a.	Linear Regression  
     b.	Multivariate Regression  
-    c.	Ridge, Lasso, ElasticNet (Can skip this)  
-    d.	Boston house price prediction (Can include in RNN but can try with simple regression as well.)  
+    c.	Ridge, Lasso, ElasticNet   
+    d.	Boston house price prediction   
 
 6.	Classification  
     a.	Logistic Regression  
@@ -169,7 +169,7 @@ Check our Facebook events for the zoom link of the live session - [AISoc.ucl](ht
     b.	Tensor Constant, Data type, LR with Tensorflow  
     c.	Keras Sequential, layers, model.compile()  
 
-12.	Optimization  
+12.	Optimization (if time permits)  
     a.  Back Propagation  
     a.	Gradient Descent  
     b.	Stochastic Gradient Descent  
@@ -177,13 +177,13 @@ Check our Facebook events for the zoom link of the live session - [AISoc.ucl](ht
     d.	Adadelta  
     e.	RMSprop  
     f.	Adam  
-    g.	RAdam (State of the Art)  
+    g.	RAdam    
     
 13.	Regularization Techniques  
     a.  Overfitting  
-    b.	Data Augmentation  
-    c.	Drop out  
-    d. 	Batch Normalisation  
+    b.	Data Augmentation (if time permits)  
+    c.	Drop-out  
+    d. 	Batch Normalisation (if time permits)  
     
 14.	CNN  
     a.	Data Augmentation for Computer Vision  
@@ -223,17 +223,6 @@ Check our Facebook events for the zoom link of the live session - [AISoc.ucl](ht
 ---
 
 #### 5) Reinforcement Learning
- * Tutorial 1  
-    [Notes](https://colab.research.google.com/drive/1ggwbW__i3ZLDKfmoqYQpjtM955FSJZ9C)   
-    [Beginner solutions](https://colab.research.google.com/drive/1zSuitT_KMcMlwRhwd54q4IgG01suSn6f)  
-    [Advanced solutions]()
-    
- * Tutorial 2  
-    [Notes]()   
-    [Beginner solutions]()  
-    [Advanced solutions]()  
-    
-#### 6) Reinforcement Learning Basics
 
 27. Elements of a RL problem and mathematical definitions
 28. Morkov Decision Processes Formalism
@@ -246,3 +235,7 @@ Check our Facebook events for the zoom link of the live session - [AISoc.ucl](ht
     a.	SARSA  
     b.	DQN  
     c.	DQN Extensions  
+
+ * Tutorial 1  
+    [Notes](https://colab.research.google.com/drive/1ggwbW__i3ZLDKfmoqYQpjtM955FSJZ9C)   
+    [solutions](https://colab.research.google.com/drive/1zSuitT_KMcMlwRhwd54q4IgG01suSn6f) 
