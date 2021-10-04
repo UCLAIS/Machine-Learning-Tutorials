@@ -17,7 +17,7 @@ On our Discord channel, you can ask any questions you may have on our notebooks.
 
 Check our Facebook events for the zoom link of the live session - [AISoc.ucl](https://www.facebook.com/AISoc.ucl)
 
-## Tutorial notebooks
+## Tutorial notebooks & live lecture recordings
 <table>
   <tr>
     <th>Release Date</th>
@@ -71,7 +71,7 @@ Check our Facebook events for the zoom link of the live session - [AISoc.ucl](ht
 </table>
 
 
-## Lecture Videos
+## Pre-recorded lecture videos
 
 <table>
   <tr>
