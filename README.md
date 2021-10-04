@@ -71,7 +71,7 @@ Check our Facebook events for the zoom link of the live session - [AISoc.ucl](ht
 </table>
 
 
-## Lectures
+## Lecture Videos
 
 <table>
   <tr>
