@@ -1,6 +1,8 @@
 # UCL-AI-Society-ML-Tutorials
 ## Season 1 (2020/2021)
 
+Season 2 (21/22) Repo is right here -> https://github.com/UCLAIS/ML-Tutorials-Season-2
+
 ### Contributors
 - [Danny Toeun Kim](https://github.com/kimdanny) (Maintainer since 19/20)
 - [Jianqiao Mao](https://github.com/JianqiaoMao) (20/21)
